@@ -1,10 +1,7 @@
 from django.db import models
 
-from CourseDjango.game_store.models import Game
-
-
 class Inventory(models.Model):
-    game = models.OneToOneField(Game, on_delete=models.CASCADE)
+    game = models.OneToOneField('game_store.Game', on_delete=models.CASCADE)
     quantity = models.PositiveIntegerField(default=0)
     price = models.DecimalField(max_digits=10, decimal_places=2)
 

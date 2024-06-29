@@ -9,4 +9,4 @@ from .platform import Platform
 from .publisher import Publisher
 from .review import Review
 
-__all__ = [Customer, Developer, Discount, Game, Genre, Inventory, Order, Publisher,Review]
+__all__ = ['Customer', 'Developer', 'Discount', 'Game', 'Genre', 'Inventory', 'Order', 'Publisher', 'Review']
