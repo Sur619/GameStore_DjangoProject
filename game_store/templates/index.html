@@ -1,0 +1,13 @@
+{% load socialaccount %}
+<html>
+<body>
+<h1>Course Django Auth</h1>
+{% if user.is_authenticated %}
+<p>Logged in as {{ user.username }}</p>
+<a href="{% provider_login_url 'google' process='connect' %}">Connect Google account</a>
+{% else %}
+<a href="{% provider_login_url 'google' %}">Login with Google</a>
+{% endif %}
+
+</body>
+</html>

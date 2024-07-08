@@ -1,0 +1,369 @@
+
+[
+  {
+    "model": "game_store.customer",
+    "pk": 1,
+    "fields": {
+      "username": "Alice Johnson",
+      "email": "alice@example.com"
+    }
+  },
+  {
+    "model": "game_store.customer",
+    "pk": 2,
+    "fields": {
+      "username": "Bob Smith",
+      "email": "bob@example.com"
+    }
+  },
+  {
+    "model": "game_store.customer",
+    "pk": 3,
+    "fields": {
+      "username": "Charlie Brown",
+      "email": "charlie@example.com"
+    }
+  },
+  {
+    "model": "game_store.customer",
+    "pk": 4,
+    "fields": {
+      "username": "Diana Prince",
+      "email": "diana@example.com"
+    }
+  },
+  {
+    "model": "game_store.customer",
+    "pk": 5,
+    "fields": {
+      "username": "Eve Adams",
+      "email": "eve@example.com"
+    }
+  },
+  {
+    "model": "game_store.developer",
+    "pk": 1,
+    "fields": {
+      "name": "Epic Games",
+      "country": "USA"
+    }
+  },
+  {
+    "model": "game_store.developer",
+    "pk": 2,
+    "fields": {
+      "name": "Valve Corporation",
+      "country": "USA"
+    }
+  },
+  {
+    "model": "game_store.developer",
+    "pk": 3,
+    "fields": {
+      "name": "CD Projekt Red",
+      "country": "Poland"
+    }
+  },
+  {
+    "model": "game_store.developer",
+    "pk": 4,
+    "fields": {
+      "name": "Ubisoft",
+      "country": "France"
+    }
+  },
+  {
+    "model": "game_store.developer",
+    "pk": 5,
+    "fields": {
+      "name": "Square Enix",
+      "country": "Japan"
+    }
+  },
+  {
+    "model": "game_store.discount",
+    "pk": 1,
+    "fields": {
+      "code": "SUMMER20",
+      "amount": 20
+    }
+  },
+  {
+    "model": "game_store.discount",
+    "pk": 2,
+    "fields": {
+      "code": "WINTER15",
+      "amount": 15
+    }
+  },
+  {
+    "model": "game_store.discount",
+    "pk": 3,
+    "fields": {
+      "code": "SPRING10",
+      "amount": 10
+    }
+  },
+  {
+    "model": "game_store.discount",
+    "pk": 4,
+    "fields": {
+      "code": "FALL5",
+      "amount": 5
+    }
+  },
+  {
+    "model": "game_store.discount",
+    "pk": 5,
+    "fields": {
+      "code": "WELCOME",
+      "amount": 25
+    }
+  },
+  {
+    "model": "game_store.genre",
+    "pk": 1,
+    "fields": {
+      "name": "Battle Royale"
+    }
+  },
+  {
+    "model": "game_store.genre",
+    "pk": 2,
+    "fields": {
+      "name": "First-person Shooter"
+    }
+  },
+  {
+    "model": "game_store.genre",
+    "pk": 3,
+    "fields": {
+      "name": "Role-playing Game"
+    }
+  },
+  {
+    "model": "game_store.genre",
+    "pk": 4,
+    "fields": {
+      "name": "Action-adventure"
+    }
+  },
+  {
+    "model": "game_store.genre",
+    "pk": 5,
+    "fields": {
+      "name": "Fantasy"
+    }
+  },
+  {
+    "model": "game_store.platform",
+    "pk": 1,
+    "fields": {
+      "name": "PC"
+    }
+  },
+  {
+    "model": "game_store.platform",
+    "pk": 2,
+    "fields": {
+      "name": "PlayStation"
+    }
+  },
+  {
+    "model": "game_store.platform",
+    "pk": 3,
+    "fields": {
+      "name": "Xbox"
+    }
+  },
+  {
+    "model": "game_store.platform",
+    "pk": 4,
+    "fields": {
+      "name": "Nintendo Switch"
+    }
+  },
+  {
+    "model": "game_store.platform",
+    "pk": 5,
+    "fields": {
+      "name": "Mobile"
+    }
+  },
+  {
+    "model": "game_store.publisher",
+    "pk": 1,
+    "fields": {
+      "name": "Epic Games Publishing",
+      "country": "USA"
+    }
+  },
+  {
+    "model": "game_store.publisher",
+    "pk": 2,
+    "fields": {
+      "name": "Valve",
+      "country": "USA"
+    }
+  },
+  {
+    "model": "game_store.publisher",
+    "pk": 3,
+    "fields": {
+      "name": "CD Projekt",
+      "country": "Poland"
+    }
+  },
+  {
+    "model": "game_store.publisher",
+    "pk": 4,
+    "fields": {
+      "name": "Ubisoft Entertainment",
+      "country": "France"
+    }
+  },
+  {
+    "model": "game_store.publisher",
+    "pk": 5,
+    "fields": {
+      "name": "Square Enix Holdings",
+      "country": "Japan"
+    }
+  },
+  {
+    "model": "game_store.game",
+    "pk": 1,
+    "fields": {
+      "title": "Fortnite",
+      "developer": 1,
+      "publisher": 1,
+      "platform": 1,
+      "genre": 1,
+      "price": 0.00
+    }
+  },
+  {
+    "model": "game_store.game",
+    "pk": 2,
+    "fields": {
+      "title": "Half-Life 2",
+      "developer": 2,
+      "publisher": 2,
+      "platform": 2,
+      "genre": 2,
+      "price": 9.99
+    }
+  },
+  {
+    "model": "game_store.game",
+    "pk": 3,
+    "fields": {
+      "title": "The Witcher 3",
+      "developer": 3,
+      "publisher": 3,
+      "platform": 3,
+      "genre": 3,
+      "price": 29.99
+    }
+  },
+  {
+    "model": "game_store.game",
+    "pk": 4,
+    "fields": {
+      "title": "Assassin's Creed",
+      "developer": 4,
+      "publisher": 4,
+      "platform": 4,
+      "genre": 4,
+      "price": 19.99
+    }
+  },
+  {
+    "model": "game_store.game",
+    "pk": 5,
+    "fields": {
+      "title": "Final Fantasy XV",
+      "developer": 5,
+      "publisher": 5,
+      "platform": 5,
+      "genre": 5,
+      "price": 39.99
+    }
+  },
+  {
+    "model": "game_store.inventory",
+    "pk": 1,
+    "fields": {
+      "game": 1,
+      "quantity": 100
+    }
+  },
+  {
+    "model": "game_store.inventory",
+    "pk": 2,
+    "fields": {
+      "game": 2,
+      "quantity": 200
+    }
+  },
+  {
+    "model": "game_store.inventory",
+    "pk": 3,
+    "fields": {
+      "game": 3,
+      "quantity": 150
+    }
+  },
+  {
+    "model": "game_store.inventory",
+    "pk": 4,
+    "fields": {
+      "game": 4,
+      "quantity": 120
+    }
+  },
+  {
+    "model": "game_store.inventory",
+    "pk": 5,
+    "fields": {
+      "game": 5,
+      "quantity": 130
+    }
+  },
+  {
+    "model": "game_store.order",
+    "pk": 1,
+    "fields": {
+      "customer": 1,
+      "game": 1,
+      "quantity": 1
+    }
+  },
+  {
+    "model": "game_store.order",
+    "pk": 2,
+    "fields": {
+      "customer": 2,
+      "game": 2,
+      "quantity": 1
+    }
+  },
+  {
+    "model": "game_store.order",
+    "pk": 3,
+    "fields": {
+      "customer": 3,
+      "game": 3,
+      "quantity": 1
+    }
+  },
+  {
+    "model": "game_store.order",
+    "pk": 4,
+    "fields": {
+      "customer": 4,
+      "game": 4,
+      "quantity": 1
+    }
+  }
+]

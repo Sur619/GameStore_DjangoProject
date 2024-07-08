@@ -1,5 +1,6 @@
 from django.db import models
 
+
 class Review(models.Model):
     game = models.ForeignKey('game_store.Game', on_delete=models.CASCADE, related_name='reviews')
     customer = models.ForeignKey('game_store.Customer', on_delete=models.CASCADE)
